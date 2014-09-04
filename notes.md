@@ -11,6 +11,14 @@ I've used [this guide][2]
 service php5-fpm restart
 service nginx restart
 
+### Cachear pelo nginx ao invés de plugins wordpress?
+
+Não testei ainda.
+
+- https://rtcamp.com/wordpress-nginx/tutorials/single-site/fastcgi-cache-with-purging/
+- http://codex.wordpress.org/Nginx
+- http://wordpress.org/plugins/nginx-helper/ (ver tutorials)
+
 ## Audio Files
 
 In order to test audio tracks in different qualities and formats, 
@@ -36,6 +44,7 @@ So edit the config to include in the server section this:
 ```
 client_max_body_size 20M;
 ```
+
 
 [1]: https://www.digitalocean.com/?refcode=2c0f8d80ba34  
 [2]: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-nginx-on-ubuntu-12-04
